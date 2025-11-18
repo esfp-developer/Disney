@@ -1,6 +1,6 @@
 import Foundation
 import Domain
-import Network
+import DNetwork
 import DB
 
 // MARK: - Repository Module

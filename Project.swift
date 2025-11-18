@@ -2,12 +2,6 @@ import ProjectDescription
 
 let project = Project(
     name: "Disney",
-    options: .options(
-        automaticSchemesOptions: .enabled(),
-        disableBundleAccessors: false,
-        disableSynthesizedResourceAccessors: false,
-        textSettings: .textSettings(usesTabs: false, indentWidth: 4, tabWidth: 4)
-    ),
     targets: [
         // MARK: - Main App
         .target(
@@ -56,10 +50,10 @@ let project = Project(
         
         // MARK: - Infrastructure Layer
         .target(
-            name: "Network",
+            name: "DNetwork",
             destinations: .iOS,
             product: .framework,
-            bundleId: "dev.tuist.Disney.Network",
+            bundleId: "dev.tuist.Disney.DNetwork",
             infoPlist: .default,
             sources: ["Modules/Infrastructure/Network/**"],
             dependencies: []
@@ -82,7 +76,7 @@ let project = Project(
             sources: ["Modules/Infrastructure/Repository/**"],
             dependencies: [
                 .target(name: "Domain"),
-                .target(name: "Network"),
+                .target(name: "DNetwork"),
                 .target(name: "DB")
             ]
         ),
