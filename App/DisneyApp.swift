@@ -7,9 +7,9 @@ import Repository
 struct DisneyApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView(
-                store: Store(initialState: HomeReducer.State()) {
-                    HomeReducer()
+            RootView(
+                store: Store(initialState: RootReducer.State()) {
+                    RootReducer()
                 } withDependencies: {
                     $0.userRepository = .live()
                     $0.productRepository = .live()
@@ -18,3 +18,4 @@ struct DisneyApp: App {
         }
     }
 }
+

@@ -4,7 +4,7 @@ import Foundation
 // 도메인 엔티티들을 정의합니다.
 // 완전히 독립적이며 외부 의존성이 없습니다.
 
-public struct User {
+public struct User: Equatable {
     public let id: String
     public let name: String
     public let email: String
@@ -16,7 +16,7 @@ public struct User {
     }
 }
 
-public struct Product {
+public struct Product: Equatable {
     public let id: String
     public let name: String
     public let price: Int
