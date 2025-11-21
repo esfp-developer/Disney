@@ -1,5 +1,5 @@
 ---
-name: Task
+name: Task(Development)
 about: "task for development"
 title: "[Development] "
 labels: 'Development'
