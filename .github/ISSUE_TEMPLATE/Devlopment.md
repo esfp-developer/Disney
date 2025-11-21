@@ -2,7 +2,7 @@
 name: Task
 about: "task for development"
 title: "[Development] "
-labels: 'development'
+labels: 'Development'
 assignees: hyogeon-kim, nayong-k
 
 ---
@@ -16,4 +16,4 @@ assignees: hyogeon-kim, nayong-k
 
 ## Changes
 - 
-<!-- (Required) 개발 과제 적용에 따른 변경(개선)사항 기재 (ex. AS-IS, TO-BE) -->
+<!-- (Required) 개발 과제 적용에 따른 변경(개선)사항 기재 (ex. AS-IS, TO-BE) -->
