@@ -1,7 +1,7 @@
 ---
 name: Issue
-about: ""
-title: ""
+about: "issue"
+title: "Issue"
 labels: 'Service'
 assignees: hyogeon-kim, nayong-k
 
