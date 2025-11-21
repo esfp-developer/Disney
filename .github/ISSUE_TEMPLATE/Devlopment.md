@@ -1,9 +1,9 @@
 ---
-name: 개발과제 등록
-about: "[과제 : 개발]"
-title: "[개발과제]"
-labels: '과제 : 개발'
-assignees: kimtaehun, nayong-k
+name: Task
+about: "task for development"
+title: "[Development] "
+labels: 'development'
+assignees: hyogeon-kim, nayong-k
 
 ---
 

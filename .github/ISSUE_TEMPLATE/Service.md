@@ -1,9 +1,9 @@
 ---
-name: 서비스과제 관리
-about: "[Document], [과제 : 서비스]"
-title: "[서비스과제] 과제 타이틀 기재"
-labels: 'Document, 과제 : 서비스'
-assignees: hyogeon-kim
+name: Task
+about: "task for service"
+title: "[Service] "
+labels: 'Service'
+assignees: hyogeon-kim, nayong-k
 
 ---
 

@@ -1,9 +1,9 @@
 ---
-name: 배포 앱 버전 과제 리스트 관리
-about: "[Document], [과제 : 앱 버전 전체]"
-title: "[배포 앱 버전 입력] 과제 리스트"
-labels: 'Document, 과제 : 앱 버전 전체'
-assignees: hyogeon-kim
+name: Dashboard
+about: "dashboard for a specific service version"
+title: "[vX.X.X] Dashboard"
+labels: 'Document'
+assignees: hyogeon-kim, nayong-k
 
 ---
 

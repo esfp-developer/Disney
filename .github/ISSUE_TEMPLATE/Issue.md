@@ -1,8 +1,5 @@
 ---
-name: 이슈 관리
-about: "[이슈]"
-title: "[이슈]"
-labels: 이슈
+name: Issue
 assignees: hyogeon-kim, nayong-k
 
 ---
