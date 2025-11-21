@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tuist generate:*)",
+      "Bash(xcodebuild:*)",
+      "Bash(tuist install:*)",
+      "Bash(tuist clean:*)",
+      "Bash(tuist --version:*)",
+      "Bash(tuist version:*)",
+      "WebFetch(domain:docs.tuist.io)",
+      "WebFetch(domain:docs.tuist.dev)",
+      "Bash(brew install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
