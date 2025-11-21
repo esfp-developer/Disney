@@ -3,7 +3,6 @@ name: Task(Service)
 about: "task for service"
 title: "[Service]"
 labels: 'Service'
-
 ---
 
 ## References
