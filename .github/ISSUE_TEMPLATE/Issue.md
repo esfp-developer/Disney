@@ -1,3 +1,12 @@
+---
+name: Issue
+about: "issue"
+title: "Issue"
+labels: 'Service'
+assignees: hyogeon-kim, nayong-k
+
+---
+
 ## References
 - 
 <!-- (Required) 이슈 관련 링크 또는 첨부 파일 추가 (ex. PR 또는 이슈 링크 / Nelo 링크 / 동영상 / Screenshot 등)  -->
