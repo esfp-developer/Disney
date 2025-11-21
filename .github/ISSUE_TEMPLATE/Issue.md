@@ -1,5 +1,7 @@
 ---
 name: Issue
+about: ""
+title: ""
 labels: 'Service'
 assignees: hyogeon-kim, nayong-k
 
